@@ -55,5 +55,5 @@ sudo apt update -y && sudo apt install -y python3 python3-pip curl && pip3 insta
 ```
 - اجرای اسکریپت
 ```
-apt install curl -y && bash -c "$(curl -fsSL )"
+apt install curl -y && bash -c "$(curl -fsSL https://raw.githubusercontent.com/Azumi67/DNS_tun/refs/heads/main/dns.sh)"
 ```
