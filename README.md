@@ -15,7 +15,9 @@
  ![6348248](https://github.com/Azumi67/PrivateIP-Tunnel/assets/119934376/398f8b07-65be-472e-9821-631f7b70f783)
 **آموزش استفاده از اسکریپت**
 
-- قبل از اینکه اسکریپت را اجرا کنم باید یک دامین تهیه کنم. به طور مثال دامین من azumi.com است . حالا داخل dns provider باید یک NS با عنوان tunnel و مقدار iodine.azumi.beauty. ( حتما در اخر مقدار یک dot قرار دهید) و یک رکورد A با عنوان iodine و ایپی پابلیک سرور خارج قرار میدهم. در اسکریپت از ساب دامین tunnel.iodine.azumi.com استفاده میکنم. اگر فرایند را درست انجام دهید، تانل برای شما باید فعال شود و بین دو پرایوت ایپی پینگ برقرار شود.
+- قبل از اینکه اسکریپت را اجرا کنم باید یک دامین تهیه کنم. به طور مثال دامین من azumi.com است . حالا داخل dns provider باید یک NS با عنوان tunnel و مقدار iodine.azumi.com. ( حتما در اخر مقدار یک dot قرار دهید) و یک رکورد A با عنوان iodine و ایپی پابلیک سرور خارج قرار میدهم. در اسکریپت از ساب دامین tunnel.iodine.azumi.com استفاده میکنم. اگر فرایند را درست انجام دهید، تانل برای شما باید فعال شود و بین دو پرایوت ایپی پینگ برقرار شود.
+- به این صورت میشود tunnel.iodine.azumi.com. << NS و رکورد A >> iodine.azumi.com که پشت ان ایپی پلبلیک سرور خارج قرار میگیرد
+- حالا برای ساب دامین هم میشود از tunnel.azumi.com و هم tunnel.iodine.azumi.com استفاده کرد
  <div align="right">
   <details>
     <summary><strong><img src="https://github.com/Azumi67/Rathole_reverseTunnel/assets/119934376/fcbbdc62-2de5-48aa-bbdd-e323e96a62b5" alt="Image"> </strong>نحوه استفاده از اسکریپت</summary>
